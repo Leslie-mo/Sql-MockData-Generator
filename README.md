@@ -1,4 +1,4 @@
-# SQL Generater
+# SQL Generator
 
 ## Project Introduce
 
