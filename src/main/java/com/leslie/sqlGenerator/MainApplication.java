@@ -1,4 +1,4 @@
-package com.leslie.sqlGenerater;
+package com.leslie.sqlGenerator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

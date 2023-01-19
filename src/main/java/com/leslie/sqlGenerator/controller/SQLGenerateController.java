@@ -1,7 +1,6 @@
-package com.leslie.sqlGenerater.controller;
+package com.leslie.sqlGenerator.controller;
 
-import com.leslie.sqlGenerater.common.ResultUtils;
-import com.leslie.sqlGenerater.model.VO.GenerateVO;
+import com.leslie.sqlGenerator.model.VO.GenerateVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

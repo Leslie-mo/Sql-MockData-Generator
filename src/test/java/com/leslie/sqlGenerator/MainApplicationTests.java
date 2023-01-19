@@ -1,4 +1,4 @@
-package com.leslie.sqlGenerater;
+package com.leslie.sqlGenerator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

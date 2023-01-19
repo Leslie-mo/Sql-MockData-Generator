@@ -1,4 +1,4 @@
-package com.leslie.sqlGenerater.model.VO;
+package com.leslie.sqlGenerator.model.VO;
 
 import lombok.Data;
 
