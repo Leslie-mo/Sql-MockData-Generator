@@ -1,11 +1,10 @@
 package com.leslie.sqlGenerator.common;
 
+import java.io.Serializable;
 import lombok.Data;
 
-import java.io.Serializable;
-
 /**
- * return base
+ * 通用返回类
  *
  * @param <T>
  */
@@ -28,7 +27,7 @@ public class BaseResponse<T> implements Serializable {
         this(code, data, "");
     }
 
-    public BaseResponse(ErrorCodeResponse errorCodeResponse) {
-        this(errorCodeResponse.getCode(), null, errorCodeResponse.getMessage());
+    public BaseResponse(ErrorCode errorCode) {
+        this(errorCode.getCode(), null, errorCode.getMessage());
     }
 }

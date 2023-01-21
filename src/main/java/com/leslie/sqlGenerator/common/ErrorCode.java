@@ -4,11 +4,11 @@ package com.leslie.sqlGenerator.common;
  * error code
  *
  */
-public enum ErrorCodeResponse {
+public enum ErrorCode {
 
     SUCCESS(0, "ok"),
     PARAMS_ERROR(40000, "Request parameter error"),
-    NOT_LOGIN_ERROR(40100, "Not logged in"),
+   // NOT_LOGIN_ERROR(40100, "Not logged in"),
     NO_AUTH_ERROR(40101, "No permission"),
     NOT_FOUND_ERROR(40400, "Request data does not exist"),
     FORBIDDEN_ERROR(40300, "No Access"),
@@ -25,7 +25,7 @@ public enum ErrorCodeResponse {
      */
     private final String message;
 
-    ErrorCodeResponse(int code, String message) {
+    ErrorCode(int code, String message) {
         this.code = code;
         this.message = message;
     }

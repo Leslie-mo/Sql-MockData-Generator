@@ -12,82 +12,82 @@ import java.util.List;
 public class TableSchema {
 
     /**
-     * 库名
+     * dbName
      */
     private String dbName;
 
     /**
-     * 表名
+     * tableName
      */
     private String tableName;
 
     /**
-     * 表注释
+     * tableComment
      */
     private String tableComment;
 
     /**
-     * 模拟数据条数
+     * mockNum
      */
     private Integer mockNum;
 
     /**
-     * 列信息列表
+     * fieldList
      */
     private List<Field> fieldList;
 
     /**
-     * 列信息
+     * field info
      */
     @Data
     public static class Field {
         /**
-         * 字段名
+         * fieldName
          */
         private String fieldName;
 
         /**
-         * 字段类型
+         * fieldType
          */
         private String fieldType;
 
         /**
-         * 默认值
+         * defaultValue
          */
         private String defaultValue;
 
         /**
-         * 是否非空
+         * notNull
          */
         private boolean notNull;
 
         /**
-         * 注释（字段中文名）
+         * comment
          */
         private String comment;
 
         /**
-         * 是否为主键
+         * is primaryKey
          */
         private boolean primaryKey;
 
         /**
-         * 是否自增
+         * is autoIncrement
          */
         private boolean autoIncrement;
 
         /**
-         * 模拟类型（随机、图片、规则、词库）
+         * mockType（random、image、rule、dictionary）
          */
         private String mockType;
 
         /**
-         * 模拟参数
+         * mockParams
          */
         private String mockParams;
 
         /**
-         * 附加条件
+         * onUpdate
          */
         private String onUpdate;
     }

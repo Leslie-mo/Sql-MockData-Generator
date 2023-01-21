@@ -1,13 +1,14 @@
 package com.leslie.sqlGenerator.common;
 
 /**
- * return tool
+ * 返回工具类
  *
+ * @author https://github.com/liyupi
  */
 public class ResultUtils {
 
     /**
-     * success
+     * 成功
      *
      * @param data
      * @param <T>
@@ -18,17 +19,17 @@ public class ResultUtils {
     }
 
     /**
-     * fail
+     * 失败
      *
-     * @param errorCodeResponse
+     * @param errorCode
      * @return
      */
-    public static BaseResponse error(ErrorCodeResponse errorCodeResponse) {
-        return new BaseResponse<>(errorCodeResponse);
+    public static BaseResponse error(ErrorCode errorCode) {
+        return new BaseResponse<>(errorCode);
     }
 
     /**
-     * fail
+     * 失败
      *
      * @param code
      * @param message
@@ -39,12 +40,12 @@ public class ResultUtils {
     }
 
     /**
-     * fail
+     * 失败
      *
-     * @param errorCodeResponse
+     * @param errorCode
      * @return
      */
-    public static BaseResponse error(ErrorCodeResponse errorCodeResponse, String message) {
-        return new BaseResponse(errorCodeResponse.getCode(), null, message);
+    public static BaseResponse error(ErrorCode errorCode, String message) {
+        return new BaseResponse(errorCode.getCode(), null, message);
     }
 }
