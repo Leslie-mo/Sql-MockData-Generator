@@ -1,4 +1,4 @@
-# SQL  AND Mock Data Generator
+# SQL  And Mock Data Generator
 
 
 ## Project Introduce
