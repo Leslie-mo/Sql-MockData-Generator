@@ -4,9 +4,8 @@ import com.leslie.sqlGenerator.common.ErrorCode;
 
 
 /**
- * 自定义异常类
+ * business exception
  *
-
  */
 public class BusinessException extends RuntimeException {
 

@@ -7,9 +7,8 @@ import java.io.IOException;
 import org.springframework.context.annotation.Bean;
 
 /**
- * FreeMarker 模板配置
+ * FreeMarker configuration
  *
- * 
  */
 @org.springframework.context.annotation.Configuration
 public class FreeMarkerConfigurationConfig {

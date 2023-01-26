@@ -8,7 +8,6 @@ public enum ErrorCode {
 
     SUCCESS(0, "ok"),
     PARAMS_ERROR(40000, "Request parameter error"),
-   // NOT_LOGIN_ERROR(40100, "Not logged in"),
     NO_AUTH_ERROR(40101, "No permission"),
     NOT_FOUND_ERROR(40400, "Request data does not exist"),
     FORBIDDEN_ERROR(40300, "No Access"),

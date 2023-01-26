@@ -1,6 +1,6 @@
 package com.leslie.sqlGenerator.model.vo;
 
-import com.leslie.sqlGenerator.core.schema.TableSchema;
+import com.leslie.sqlGenerator.coreMethon.schema.TableSchema;
 import lombok.Data;
 
 import java.io.Serializable;

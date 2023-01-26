@@ -1,9 +1,9 @@
-<#-- Typescript 类型生成模板 -->
+<#-- Typescript generation template -->
 /**
  * ${classComment}
  */
 interface ${className} {
-<#-- 循环生成字段 ---------->
+<#-- Loop to generate fields ---------->
 <#list fieldList as field>
   // ${field.comment}
   ${field.fieldName}: ${field.typescriptType};

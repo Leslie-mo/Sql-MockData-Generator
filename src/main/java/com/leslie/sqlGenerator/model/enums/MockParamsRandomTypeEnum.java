@@ -7,9 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 模拟参数随机类型枚举
+ * Mock params random type Enum
  *
-
  */
 public enum MockParamsRandomTypeEnum {
 
@@ -33,7 +32,7 @@ public enum MockParamsRandomTypeEnum {
     }
 
     /**
-     * 获取值列表
+     * get values
      *
      * @return
      */
@@ -42,7 +41,7 @@ public enum MockParamsRandomTypeEnum {
     }
 
     /**
-     * 根据 value 获取枚举
+     * get enum by value
      *
      * @param value
      * @return

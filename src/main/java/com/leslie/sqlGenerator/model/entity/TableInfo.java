@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * 表信息
+ * Table info
  * @TableName table_info
  */
 @TableName(value ="table_info")

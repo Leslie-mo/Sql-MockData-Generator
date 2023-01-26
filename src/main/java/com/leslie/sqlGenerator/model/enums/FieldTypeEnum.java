@@ -7,9 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 字段类型枚举
+ * Field type enum
  *
-
  */
 public enum FieldTypeEnum {
 
@@ -52,7 +51,7 @@ public enum FieldTypeEnum {
     }
 
     /**
-     * 获取值列表
+     * get values
      *
      * @return
      */
@@ -61,7 +60,7 @@ public enum FieldTypeEnum {
     }
 
     /**
-     * 根据 value 获取枚举
+     * get enum by value
      *
      * @param value
      * @return

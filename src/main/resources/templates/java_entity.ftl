@@ -1,4 +1,4 @@
-<#-- Java 实体模板 -->
+<#-- Java entity template -->
 import lombok.Data;
 
 /**
@@ -7,10 +7,10 @@ import lombok.Data;
 @Data
 public class ${className} implements Serializable {
 
-    <#-- 序列化 -->
+    <#-- Serialization -->
     private static final long serialVersionUID = 1L;
 
-<#-- 循环生成字段 ---------->
+<#-- Loop to generate fields ---------->
 <#list fieldList as field>
     <#if field.comment!?length gt 0>
     /**

@@ -7,9 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 模拟类型枚举
+ * Mock type enum
  *
-
  */
 public enum MockTypeEnum {
 
@@ -27,7 +26,7 @@ public enum MockTypeEnum {
     }
 
     /**
-     * 获取值列表
+     *  get values
      *
      * @return
      */
@@ -36,7 +35,7 @@ public enum MockTypeEnum {
     }
 
     /**
-     * 根据 value 获取枚举
+     *  get enum by value
      *
      * @param value
      * @return
