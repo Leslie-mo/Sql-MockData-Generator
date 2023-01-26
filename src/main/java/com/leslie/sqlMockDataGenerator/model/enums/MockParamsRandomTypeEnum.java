@@ -11,18 +11,18 @@ import java.util.stream.Collectors;
  */
 public enum MockParamsRandomTypeEnum {
 
-    STRING("字符串"),
-    NAME("人名"),
-    CITY("城市"),
-    URL("网址"),
-    EMAIL("邮箱"),
+    STRING("String"),
+    NAME("Person name"),
+    CITY("City"),
+    URL("URL"),
+    EMAIL("Email"),
     IP("IP"),
-    INTEGER("整数"),
-    DECIMAL("小数"),
-    UNIVERSITY("大学"),
-    DATE("日期"),
-    TIMESTAMP("时间戳"),
-    PHONE("手机号");
+    INTEGER("Integer"),
+    DECIMAL("Decimal"),
+    UNIVERSITY("University"),
+    DATE("Date"),
+    TIMESTAMP("Timestamp"),
+    PHONE("Phone number");
 
     private final String value;
 

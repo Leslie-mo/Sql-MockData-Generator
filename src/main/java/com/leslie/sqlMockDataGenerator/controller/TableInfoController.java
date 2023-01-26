@@ -107,10 +107,6 @@ public class TableInfoController {
                                                              HttpServletRequest request) {
         long current = tableInfoQueryRequest.getCurrent();
         long size = tableInfoQueryRequest.getPageSize();
-        // 限制爬虫
-        if (size > 20) {
-            throw new BusinessException(ErrorCode.PARAMS_ERROR);
-        }
         Page<TableInfo> tableInfoPage = tableInfoService.page(new Page<>(current, size),
                 getQueryWrapper(tableInfoQueryRequest));
         return ResultUtils.success(tableInfoPage);

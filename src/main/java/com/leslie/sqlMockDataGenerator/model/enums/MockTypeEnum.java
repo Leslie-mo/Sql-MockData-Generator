@@ -11,12 +11,12 @@ import java.util.stream.Collectors;
  */
 public enum MockTypeEnum {
 
-    NONE("不模拟"),
-    INCREASE("递增"),
-    FIXED("固定"),
-    RANDOM("随机"),
-    RULE("规则"),
-    DICT("词库");
+    NONE("None"),
+    INCREASE("Increase"),
+    FIXED("Fixed"),
+    RANDOM("Random"),
+    RULE("Rule");
+
 
     private final String value;
 
