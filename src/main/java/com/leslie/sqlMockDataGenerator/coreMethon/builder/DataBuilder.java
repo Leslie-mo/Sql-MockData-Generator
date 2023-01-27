@@ -24,7 +24,7 @@ public class DataBuilder {
      */
     public static List<Map<String, Object>> generateData(TableSchema tableSchema, int rowNum) {
         List<TableSchema.Field> fieldList = tableSchema.getFieldList();
-        // Initialize result list
+        // initialize result list
         List<Map<String, Object>> resultList = new ArrayList<>(rowNum);
         for (int i = 0; i < rowNum; i++) {
             resultList.add(new HashMap<>());

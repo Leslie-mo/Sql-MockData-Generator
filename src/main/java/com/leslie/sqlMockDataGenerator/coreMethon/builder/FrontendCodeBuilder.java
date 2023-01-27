@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Frontend code builder
+ * frontend code builder
  */
 @Component
 @Slf4j

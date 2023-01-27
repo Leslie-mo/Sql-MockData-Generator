@@ -29,7 +29,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
- * Table schema builder
+ * table schema builder
  */
 @Component
 @Slf4j

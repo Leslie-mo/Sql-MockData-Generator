@@ -6,7 +6,7 @@ import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
 import java.util.List;
 
 /**
- * Data generator
+ * data generator
  */
 public interface DataGenerator {
 

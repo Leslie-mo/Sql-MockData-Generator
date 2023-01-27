@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Incremental data generator
+ * incremental data generator
  */
 public class IncreaseDataGenerator implements DataGenerator {
 

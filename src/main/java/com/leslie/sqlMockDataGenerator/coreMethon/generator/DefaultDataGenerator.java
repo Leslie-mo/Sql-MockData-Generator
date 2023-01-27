@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Default data generator
+ * default data generator
  */
 public class DefaultDataGenerator implements DataGenerator {
 

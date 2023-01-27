@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Fixed data generator
+ * fixed data generator
  */
 public class FixedDataGenerator implements DataGenerator {
 

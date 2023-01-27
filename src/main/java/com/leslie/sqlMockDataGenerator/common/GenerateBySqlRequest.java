@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * Generate by SQL request
+ * generate by SQL request
  */
 @Data
 public class GenerateBySqlRequest implements Serializable {

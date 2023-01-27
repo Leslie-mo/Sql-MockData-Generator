@@ -5,7 +5,9 @@ import com.leslie.sqlMockDataGenerator.model.enums.MockTypeEnum;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-
+/**
+ * data generator factory
+ */
 public class DataGeneratorFactory {
 
     private static final Map<MockTypeEnum, DataGenerator> mockTypeDataGeneratorMap = new HashMap<MockTypeEnum, DataGenerator>() {{
