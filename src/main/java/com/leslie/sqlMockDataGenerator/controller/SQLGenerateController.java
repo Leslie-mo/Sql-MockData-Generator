@@ -3,8 +3,10 @@ package com.leslie.sqlMockDataGenerator.controller;
 import com.alibaba.excel.EasyExcel;
 import com.leslie.sqlMockDataGenerator.common.BaseResponse;
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
+import com.leslie.sqlMockDataGenerator.common.GenerateBySqlRequest;
 import com.leslie.sqlMockDataGenerator.common.ResultUtils;
 import com.leslie.sqlMockDataGenerator.coreMethon.GeneratorFacade;
+import com.leslie.sqlMockDataGenerator.coreMethon.builder.TableSchemaBuilder;
 import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
 import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
 import java.net.URLEncoder;
@@ -39,6 +42,26 @@ public class SQLGenerateController {
     @PostMapping("/generate/schema")
     public BaseResponse<GenerateVO> generateBySchema(@RequestBody TableSchema tableSchema) {
         return ResultUtils.success(GeneratorFacade.generateAll(tableSchema));
+    }
+
+    /**
+     * get schema by SQL
+     *
+     * @param sqlRequest
+     * @return
+     */
+    @PostMapping("/get/schema/sql")
+    public BaseResponse<TableSchema> getSchemaBySql(@RequestBody GenerateBySqlRequest sqlRequest) {
+        if (sqlRequest == null) {
+            throw new BusinessException(ErrorCode.PARAMS_ERROR);
+        }
+        // get tableSchema
+        return ResultUtils.success(TableSchemaBuilder.buildFromSql(sqlRequest.getSql()));
+    }
+
+    @PostMapping("/get/schema/excel")
+    public BaseResponse<TableSchema> getSchemaByExcel(MultipartFile file) {
+        return ResultUtils.success(TableSchemaBuilder.buildFromExcel(file));
     }
 
     /**
