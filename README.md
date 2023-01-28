@@ -2,8 +2,8 @@
 
 ## Project Introduce
 
-  I'm a programmer working in Japan. In Japanese-style development, data tables need to be built according to documents, and a large amount of test data is required. Manual input every time is very troublesome.
-  This project is aimed at streamlining the process of building data tables and generating test data in Japanese development. It utilizes an SQL generator to quickly create tables and simulate data, which can then be saved to a database. This eliminates the need for manual input and saves time for developers.
+    I'm a programmer working in Japan. In Japanese-style development, data tables need to be built according to documents, and a large amount of test data is required. Manual input every time is very troublesome.
+    This project is aimed at streamlining the process of building data tables and generating test data in Japanese development. It utilizes an SQL generator to quickly create tables and simulate data, which can then be saved to a database. This eliminates the need for manual input and saves time for developers.
 
 
 
