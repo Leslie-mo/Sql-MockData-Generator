@@ -1,4 +1,30 @@
-# SQL And Mock Data Generator
+# Sql-MockData-Generator
+
+- [Project Introduce](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduce)
+- [Features List](https://github.com/Leslie-mo/Sql-MockData-Generator#features-list)
+  - [Visualization of table creation](https://github.com/Leslie-mo/Sql-MockData-Generator#visualization-of-table-creation)
+  - [One-Click Generation](https://github.com/Leslie-mo/Sql-MockData-Generator#one-click-generation)
+    - [SQL (table creation and data insert)](https://github.com/Leslie-mo/Sql-MockData-Generator#sql-table-creation-and-data-insert)
+    - [Mock Data](https://github.com/Leslie-mo/Sql-MockData-Generator#mock-data)
+    - [JSON Data](https://github.com/Leslie-mo/Sql-MockData-Generator#json-data)
+    - [Java Code](https://github.com/Leslie-mo/Sql-MockData-Generator#java-code)
+    - [Frontend code](https://github.com/Leslie-mo/Sql-MockData-Generator#frontend-code)
+  - [Save Table](https://github.com/Leslie-mo/Sql-MockData-Generator#save-table)
+  - [Quick Import Of Table Creation](https://github.com/Leslie-mo/Sql-MockData-Generator#quick-import-of-table-creation)
+    - [Import Saved Tables](https://github.com/Leslie-mo/Sql-MockData-Generator#import-saved-tables)
+    - [Import Configurations](https://github.com/Leslie-mo/Sql-MockData-Generator#import-configurations)
+    - [Import Create Table SQL](https://github.com/Leslie-mo/Sql-MockData-Generator#import-create-table-sql)
+    - [Importing Data Excel](https://github.com/Leslie-mo/Sql-MockData-Generator#importing-data-excel)
+- [Technique](https://github.com/Leslie-mo/Sql-MockData-Generator#technique)
+- [System Design](https://github.com/Leslie-mo/Sql-MockData-Generator#system-design)
+  - [Overall Architecture Design](https://github.com/Leslie-mo/Sql-MockData-Generator#overall-architecture-design)
+  - [Schema Definition](https://github.com/Leslie-mo/Sql-MockData-Generator#schema-definition)
+  - [Generator](https://github.com/Leslie-mo/Sql-MockData-Generator#generator)
+    - [Multiple generation types](https://github.com/Leslie-mo/Sql-MockData-Generator#multiple-generation-types)
+    - [Multiple mock data generation rules](https://github.com/Leslie-mo/Sql-MockData-Generator#multiple-mock-data-generation-rules)
+    - [Unified generation portal](https://github.com/Leslie-mo/Sql-MockData-Generator#unified-generation-portal)
+  - [Save Table Service](https://github.com/Leslie-mo/Sql-MockData-Generator#save-table-service)
+  - [Table Schema Builder](https://github.com/Leslie-mo/Sql-MockData-Generator#table-schema-builder)
 
 ## Project Introduce
 
@@ -19,7 +45,7 @@ New field and field types can be added, as well as four new general fields(id, c
 
 <img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121012641.png" alt="image-20230128121012641" style="zoom:50%;" />              
 
-<img src="https://github.com/Leslie-mo/README-image-repo/blob/2f2546315e97c5d1c5f81e920b50dc22e8ef998c/Sql-MockData-Generator-image/image-20230128121034478.png" style="zoom:50%;" />
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/2f2546315e97c5d1c5f81e920b50dc22e8ef998c/Sql-MockData-Generator-image/image-20230128121034478.png" alt="image-20230128121034478" style="zoom:50%;" />
 
 #### One-Click Generation
 
@@ -49,7 +75,7 @@ You can also generate Java entity class code and Java new entity object code.
 
 ![image-20230128123610305](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128123610305.png) 
 
-##### Frontend code
+##### Frontend Code
 
 ![image-20230128123922951](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128123922951.png) 
 
@@ -65,13 +91,13 @@ Saved table an be viewed in the database.
 
 ![image-20230128130403940](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130403940.png) 
 
-#### Quick import of table creation
+#### Quick Import Of Table Creation
 
-##### Import saved tables
+##### Import Saved Tables
 
 <img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130702410.png" alt="image-20230128130702410" style="zoom:50%;" />   ![image-20230128130812320](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130812320.png) ![image-20230128130926367](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130926367.png) 
 
-##### Import configurations
+##### Import Configurations
 
 You can import the schema in JSON format and parse it as fields to fill in the form
 
@@ -83,7 +109,7 @@ You can import the schema in JSON format and parse it as fields to fill in the f
 
   ![image-20230128130926367](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130926367.png) 
 
-##### Import create table SQL
+##### Import Create Table SQL
 
 ![image-20230128131843930](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131843930.png) 
 
@@ -91,7 +117,7 @@ You can import the schema in JSON format and parse it as fields to fill in the f
 
 ![image-20230128131955324](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131955324.png) 
 
-##### Importing data Excel
+##### Importing Data Excel
 
 ![image-20230128132252266](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132252266.png) 
 
@@ -99,7 +125,7 @@ You can import the schema in JSON format and parse it as fields to fill in the f
 
 ![image-20230128132328318](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132328318.png) 
 
-- #### Multiple simulation data generation rules
+- #### Multiple Mock Data Generation Rules
 
   - Fixed values
 
@@ -137,7 +163,7 @@ Additional dependencies include:
 
 ## System Design
 
-### Overall Architecture Design
+#### Overall Architecture Design
 
 The core design concept of this project is to unify all input methods into a clear Schema, and then generate various types of content based on the Schema.
 
@@ -154,7 +180,7 @@ The system is divided into the following core modules, each module has clear res
 
 
 
-#### Schema definition
+#### Schema Definition
 
 Save the table and field information in fixed format JSON with the following structure:
 
@@ -181,19 +207,19 @@ Save the table and field information in fixed format JSON with the following str
 
 #### Generator
 
-##### Multiple generation types
+##### Multiple Generation types
 
 Define each generation type as a Builder
 
 ![image-20230128001610303](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001610303.png) 
 
-##### Multiple mock data generation rules
+##### Multiple Mock Data Generation Rules
 
 Each generation rule is defined as a Generator, and multiple Generator instances are created and managed uniformly using the DataGeneratorFactory class (factory pattern).
 
 ![image-20230128001735865](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001735865.png) 
 
-##### Unified generation portal
+##### Unified Generation Portal
 
 Aggregate the various generation types using the facade pattern to provide a uniform generation invocation and validation method.
 
@@ -205,6 +231,6 @@ The previously generated table can be saved for next use
 
 ![image-20230128004005643](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128004005643.png) 
 
-#### Table schema builder
+#### Table Schema Builder
 
 ![image-20230128003651900](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128003651900.png) 
