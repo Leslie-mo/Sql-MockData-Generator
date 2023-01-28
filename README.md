@@ -13,11 +13,11 @@
 
 You can enter data related to table creation in the form, and generate SQL statements to create the table based on the entered database name, table name, field name and field type, etc.
 
-![image-20230128120420352](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128120420352.png) 
+![image-20230128120420352](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128120420352.png) 
 
 New field and field types can be added, as well as four new general fields(id, create_time, update_time, is_delete).
 
-<img src="C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128121012641.png" alt="image-20230128121012641" style="zoom:50%;" />              <img src="C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128121034478.png" alt="image-20230128121034478" style="zoom:50%;" />
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121012641.png" alt="image-20230128121012641" style="zoom:50%;" />              <img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121034478.png" alt="image-20230128121034478" style="zoom:50%;" />
 
 #### One-Click Generation
 
@@ -25,9 +25,9 @@ New field and field types can be added, as well as four new general fields(id, c
 
 After adding the data, click the  button to generate the table creation and data insert SQL .
 
-![image-20230128121545167](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128121545167.png) 
+![image-20230128121545167](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121545167.png) 
 
-![image-20230128122025633](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128122025633.png) 
+![image-20230128122025633](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128122025633.png) 
 
 
 
@@ -35,21 +35,21 @@ After adding the data, click the  button to generate the table creation and data
 
 You can also generate the mock data based on the fields, and the data can be downloaded as an excel file.
 
-![image-20230128122929860](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128122929860.png)  
+![image-20230128122929860](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128122929860.png)  
 
 ##### JSON Data
 
-![image-20230128123259141](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128123259141.png) 
+![image-20230128123259141](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128123259141.png) 
 
 ##### Java Code
 
 You can also generate Java entity class code and Java new entity object code.
 
-![image-20230128123610305](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128123610305.png) 
+![image-20230128123610305](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128123610305.png) 
 
 ##### Frontend code
 
-![image-20230128123922951](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128123922951.png) 
+![image-20230128123922951](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128123922951.png) 
 
 
 
@@ -57,45 +57,45 @@ You can also generate Java entity class code and Java new entity object code.
 
 You can save this table information and import it directly next time.
 
- ![image-20230128130112995](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130112995.png) ![image-20230128130143125](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130143125.png) 
+ ![image-20230128130112995](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130112995.png) ![image-20230128130143125](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130143125.png) 
 
 Saved table an be viewed in the database.
 
-![image-20230128130403940](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130403940.png) 
+![image-20230128130403940](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130403940.png) 
 
 #### Quick import of table creation
 
 ##### Import saved tables
 
-<img src="C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130702410.png" alt="image-20230128130702410" style="zoom:50%;" />   ![image-20230128130812320](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130812320.png) ![image-20230128130926367](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130926367.png) 
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130702410.png" alt="image-20230128130702410" style="zoom:50%;" />   ![image-20230128130812320](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130812320.png) ![image-20230128130926367](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130926367.png) 
 
 ##### Import configurations
 
 You can import the schema in JSON format and parse it as fields to fill in the form
 
-![image-20230128131102754](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128131102754.png) 
+![image-20230128131102754](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131102754.png) 
 
-![image-20230128131406272](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128131406272.png) 
+![image-20230128131406272](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131406272.png) 
 
 
 
-  ![image-20230128130926367](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128130926367.png) 
+  ![image-20230128130926367](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130926367.png) 
 
 ##### Import create table SQL
 
-![image-20230128131843930](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128131843930.png) 
+![image-20230128131843930](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131843930.png) 
 
-![image-20230128131902172](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128131902172.png)
+![image-20230128131902172](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131902172.png)
 
-![image-20230128131955324](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128131955324.png) 
+![image-20230128131955324](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131955324.png) 
 
 ##### Importing data Excel
 
-![image-20230128132252266](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128132252266.png) 
+![image-20230128132252266](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132252266.png) 
 
-<img src="C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128132119385.png" alt="image-20230128132119385" style="zoom:50%;" />  
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132119385.png" alt="image-20230128132119385" style="zoom:50%;" />  
 
-![image-20230128132328318](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128132328318.png) 
+![image-20230128132328318](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132328318.png) 
 
 - #### Multiple simulation data generation rules
 
@@ -107,7 +107,7 @@ You can import the schema in JSON format and parse it as fields to fill in the f
 
   - Incremental values
 
-    ![image-20230128132510975](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128132510975.png) 
+    ![image-20230128132510975](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132510975.png) 
 
 ## Technique
 
@@ -141,7 +141,7 @@ The core design concept of this project is to unify all input methods into a cle
 
 The architectural design diagram is as follows, that is, any input → unified schema→generator→ any output.
 
-![image-20230128133300223](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128133300223.png) 
+![image-20230128133300223](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128133300223.png) 
 
 The system is divided into the following core modules, each module has clear responsibilities:
 
@@ -183,26 +183,26 @@ Save the table and field information in fixed format JSON with the following str
 
 Define each generation type as a Builder
 
-![image-20230128001610303](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128001610303.png) 
+![image-20230128001610303](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001610303.png) 
 
 ##### Multiple mock data generation rules
 
 Each generation rule is defined as a Generator, and multiple Generator instances are created and managed uniformly using the DataGeneratorFactory class (factory pattern).
 
-![image-20230128001735865](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128001735865.png) 
+![image-20230128001735865](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001735865.png) 
 
 ##### Unified generation portal
 
 Aggregate the various generation types using the facade pattern to provide a uniform generation invocation and validation method.
 
-![image-20230128004519400](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128004519400.png) 
+![image-20230128004519400](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128004519400.png) 
 
 #### Save Table Service
 
 The previously generated table can be saved for next use
 
-![image-20230128004005643](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128004005643.png) 
+![image-20230128004005643](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128004005643.png) 
 
 #### Table schema builder
 
-![image-20230128003651900](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128003651900.png) 
+![image-20230128003651900](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128003651900.png) 
