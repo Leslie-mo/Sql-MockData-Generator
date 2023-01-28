@@ -13,7 +13,7 @@
 
 You can enter data related to table creation in the form, and generate SQL statements to create the table based on the entered database name, table name, field name and field type, etc.
 
-![image-20230128120420352](C:\Users\leslie\AppData\Roaming\Typora\typora-user-images\image-20230128120420352.png) 
+![image-20230128120420352](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001610303.png) 
 
 New field and field types can be added, as well as four new general fields(id, create_time, update_time, is_delete).
 
