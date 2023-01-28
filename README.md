@@ -17,7 +17,9 @@ You can enter data related to table creation in the form, and generate SQL state
 
 New field and field types can be added, as well as four new general fields(id, create_time, update_time, is_delete).
 
-<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121012641.png" alt="image-20230128121012641" style="zoom:50%;" />              <img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121034478.png" alt="image-20230128121034478" style="zoom:50%;" />
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121012641.png" alt="image-20230128121012641" style="zoom:50%;" />              
+
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/2f2546315e97c5d1c5f81e920b50dc22e8ef998c/Sql-MockData-Generator-image/image-20230128121034478.png" style="zoom:50%;" />
 
 #### One-Click Generation
 
