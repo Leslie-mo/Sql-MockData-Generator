@@ -1,7 +1,11 @@
 # Sql-MockData-Generator
 
 - [Project Introduce](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduce)
+
+- [Getting Started](https://github.com/Leslie-mo/Sql-MockData-Generator#getting-started)
+
 - [Features List](https://github.com/Leslie-mo/Sql-MockData-Generator#features-list)
+  
   - [Visualization of table creation](https://github.com/Leslie-mo/Sql-MockData-Generator#visualization-of-table-creation)
   - [One-Click Generation](https://github.com/Leslie-mo/Sql-MockData-Generator#one-click-generation)
     - [SQL (table creation and data insert)](https://github.com/Leslie-mo/Sql-MockData-Generator#sql-table-creation-and-data-insert)
@@ -15,16 +19,25 @@
     - [Import Configurations](https://github.com/Leslie-mo/Sql-MockData-Generator#import-configurations)
     - [Import Create Table SQL](https://github.com/Leslie-mo/Sql-MockData-Generator#import-create-table-sql)
     - [Importing Data Excel](https://github.com/Leslie-mo/Sql-MockData-Generator#importing-data-excel)
+  
 - [Technique](https://github.com/Leslie-mo/Sql-MockData-Generator#technique)
+
 - [System Design](https://github.com/Leslie-mo/Sql-MockData-Generator#system-design)
   - [Overall Architecture Design](https://github.com/Leslie-mo/Sql-MockData-Generator#overall-architecture-design)
+
   - [Schema Definition](https://github.com/Leslie-mo/Sql-MockData-Generator#schema-definition)
+
   - [Generator](https://github.com/Leslie-mo/Sql-MockData-Generator#generator)
+
     - [Multiple generation types](https://github.com/Leslie-mo/Sql-MockData-Generator#multiple-generation-types)
     - [Multiple mock data generation rules](https://github.com/Leslie-mo/Sql-MockData-Generator#multiple-mock-data-generation-rules)
     - [Unified generation portal](https://github.com/Leslie-mo/Sql-MockData-Generator#unified-generation-portal)
+
   - [Save Table Service](https://github.com/Leslie-mo/Sql-MockData-Generator#save-table-service)
+
   - [Table Schema Builder](https://github.com/Leslie-mo/Sql-MockData-Generator#table-schema-builder)
+
+    
 
 ## Project Introduce
 
@@ -35,11 +48,11 @@
 
 ## Getting Started
 
-1.Clone backend code at https://github.com/Leslie-mo/Sql-MockData-Generator#overall-architecture-design
+1.Clone backend code at https://github.com/Leslie-mo/Sql-MockData-Generator
 
 2.Run create_table.sql file in the sql directory to create the ”table_info“ table
 
-3.Modify the database address in application.yml to your own address
+3.Modify the database configuration in application.yml to your own database 
 
 ```
 # Database Configuration
@@ -66,7 +79,7 @@ npm run install
 npm run dev
 ```
 
-
+7.App listening at http://localhost:8000
 
 
 
