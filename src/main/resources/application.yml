@@ -1,17 +1,17 @@
 spring:
   application:
     name: sqlGenerator
-  # 默认 dev 环境
+  # Default dev environment
   profiles:
     active: dev
-  # 支持 swagger3
+  # swagger3 support
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-  # 数据库配置
+  # Database Configuration
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sqlfather
+    url: jdbc:mysql://localhost:3306/sqlfather　
     username: root
     password: 123456
 server:
@@ -19,7 +19,7 @@ server:
   port: 8102
   servlet:
     context-path: /api
-    # session 30 天过期
+    # session expires in 30 days
     session:
       timeout: "P30D"
       cookie:
@@ -31,6 +31,6 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     db-config:
-      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
-      logic-delete-value: 1 # 逻辑已删除值（默认为 1）
-      logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+      logic-delete-field: isDelete # Entity field name for global logical deletion
+      logic-delete-value: 1 # Logical deleted value (default is 1)
+      logic-not-delete-value: 0 # Logical undeleted value (default is 0)

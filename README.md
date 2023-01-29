@@ -33,6 +33,43 @@
 
 
 
+## Getting Started
+
+1.Clone backend code at https://github.com/Leslie-mo/Sql-MockData-Generator#overall-architecture-design
+
+2.Run create_table.sql file in the sql directory to create the ”table_info“ table
+
+3.Modify the database address in application.yml to your own address
+
+```
+# Database Configuration
+datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/sqlfather
+  username: root
+  password: 123456
+```
+
+3.Run MainApplication
+
+4.Clone frontend code at https://github.com/Leslie-mo/Sql-MockData-Generator-Frontend
+
+5.Installation dependencies
+
+```
+npm run install
+```
+
+6.Run
+
+```
+npm run dev
+```
+
+
+
+
+
 ## Features List
 
 #### Visualization of table creation
@@ -119,9 +156,13 @@ You can import the schema in JSON format and parse it as fields to fill in the f
 
 ##### Importing Data Excel
 
+Select a local data Excel.
+
 ![image-20230128132252266](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132252266.png) 
 
-<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132119385.png" alt="image-20230128132119385" style="zoom:50%;" />  
+The first row of the table is the database column name. And the second row is the data.
+
+<img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132119385.png" alt="image-20230128132119385" style="zoom:30%;" />  
 
 ![image-20230128132328318](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132328318.png) 
 
