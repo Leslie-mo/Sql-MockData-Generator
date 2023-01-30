@@ -1,8 +1,8 @@
 -- create database
-create database if not exists sqlGenerator;
+create database if not exists sqlgenerator;
 
 -- use database
-use sqlGenerator;
+use sqlgenerator;
 
 -- table info
 create table if not exists table_info

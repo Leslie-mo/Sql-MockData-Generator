@@ -287,4 +287,6 @@ The previously generated table can be saved for next use
 
 #### Table Schema Builder
 
+The different parameters can be converged into a TableSchema object.
+
 ![image-20230128003651900](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128003651900.png) 

@@ -51,7 +51,7 @@ public class TableSchemaBuilder {
      * build from SQL
      *
      * @param sql
-     * @return built TableSchema
+     * @return built tableSchema
      */
     public static TableSchema buildFromSql(String sql) {
         if (StringUtils.isBlank(sql)) {
@@ -126,8 +126,8 @@ public class TableSchemaBuilder {
     /**
      * build from Excel
      *
-     * @param file Excel 文件
-     * @return 生成的 TableSchema
+     * @param file Excel
+     * @return built tableSchema
      */
     public static TableSchema buildFromExcel(MultipartFile file) {
         try {
