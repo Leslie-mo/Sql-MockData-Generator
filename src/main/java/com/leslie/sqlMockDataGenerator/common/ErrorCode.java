@@ -9,7 +9,7 @@ public enum ErrorCode {
     PARAMS_ERROR(40000, "Request parameter error"),
     NO_AUTH_ERROR(40101, "No permission"),
     NOT_FOUND_ERROR(40400, "Request data does not exist"),
-    FORBIDDEN_ERROR(40300, "No Access"),
+    FORBIDDEN_ERROR(40300, "No access"),
     SYSTEM_ERROR(50000, "System internal exception"),
     OPERATION_ERROR(50001, "Operation failed");
 
