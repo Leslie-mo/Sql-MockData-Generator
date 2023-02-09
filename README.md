@@ -1,6 +1,6 @@
-# Sql-MockData-Generator
+# SQL & Mock Data Generator
 
-- [Project Introduce](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduce)
+- [Project Introduction](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduce)
 
 - [Getting Started](https://github.com/Leslie-mo/Sql-MockData-Generator#getting-started)
 
@@ -39,20 +39,17 @@
 
     
 
-## Project Introduce
+## Project Introduction
 
-  I'm a programmer working in Japan. In Japanese-style development, data tables need to be built according to documents, and a large amount of test data is required. Manual input every time is very troublesome.
-  This project is aimed at streamlining the process of building data tables and generating test data in Japanese development. It utilizes an SQL generator to quickly create tables and simulate data, which can then be saved to a database. This eliminates the need for manual input and saves time for developers.
+As a programmer in Japan, I have experienced firsthand the inefficiencies and repetition in Japanese software development through my work. The technical documentation dictates how the data tables should be constructed and the testing phase requires a large amount of manual data input. To meet these requirements, programmers often spend a lot of time inputting data manually. 
 
-
+To address this issue, I came up with the idea of creating a SQL Query & Mock Data Generator. This project aims to simplify the process of building data tables and generating test data in Japanese development by using an SQL generator to create tables and simulate data quickly, which can then be saved to a database. The goal of my project is to eliminate the need for manual input and save time for programmers.
 
 ## Getting Started
 
-1.Clone backend code at https://github.com/Leslie-mo/Sql-MockData-Generator
-
-2.Run create_table.sql file in the sql directory to create the ”table_info“ table
-
-3.Modify the database configuration in application.yml to your own database 
+1. Get the backend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator
+2. To create the "table_info" table, execute the create_table.sql file located in the sql directory.
+3. Change the database configuration in application.yml to match your own database.
 
 ```
 # Database Configuration
@@ -63,55 +60,49 @@ datasource:
   password: 123456
 ```
 
-3.Run MainApplication
-
-4.Clone frontend code at https://github.com/Leslie-mo/Sql-MockData-Generator-Frontend
-
-5.Installation dependencies
+4. Start the MainApplication.
+5. Obtain the frontend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator-Frontend
+6. Install the necessary dependencies.
 
 ```
 npm run install
 ```
 
-6.Run
+7. Launch the application.
 
 ```
 npm run dev
 ```
 
-7.App listening at http://localhost:8000
-
-
+8. The app will be available at [http://localhost:8000](http://localhost:8000/).
 
 ## Features List
 
-#### Visualization of table creation
+#### Create Tables with an Interface
 
-You can enter data related to table creation in the form, and generate SQL statements to create the table based on the entered database name, table name, field name and field type, etc.
+Fill out the form with information about the table you want to create. Using the information you provide about the database name, table name, field names, and field types, the tool will generate the necessary SQL statements to create the table.
 
 ![image-20230128120420352](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128120420352.png) 
 
-New field and field types can be added, as well as four new general fields(id, create_time, update_time, is_delete).
+You can add additional fields and field types, as well as include four default fields: id, create_time, update_time, and is_delete.
 
 <img src="https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121012641.png" alt="image-20230128121012641" style="zoom:50%;" />              
 
 <img src="https://github.com/Leslie-mo/README-image-repo/blob/2f2546315e97c5d1c5f81e920b50dc22e8ef998c/Sql-MockData-Generator-image/image-20230128121034478.png" alt="image-20230128121034478" style="zoom:50%;" />
 
-#### One-Click Generation
+#### Generate SQL Queries with One Click
 
-##### SQL (table creation and data insert)
+##### SQL (table creation and data insertion)
 
-After adding the data, click the  button to generate the table creation and data insert SQL .
+Once you have entered the data, click the button to generate the SQL statements for creating the table and inserting the data.
 
 ![image-20230128121545167](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128121545167.png) 
 
 ![image-20230128122025633](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128122025633.png) 
 
-
-
 ##### Mock Data
 
-You can also generate the mock data based on the fields, and the data can be downloaded as an excel file.
+The tool also allows you to generate mock data based on the fields, which can be saved as an Excel file.
 
 ![image-20230128122929860](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128122929860.png)  
 
@@ -121,7 +112,7 @@ You can also generate the mock data based on the fields, and the data can be dow
 
 ##### Java Code
 
-You can also generate Java entity class code and Java new entity object code.
+Additionally, the tool can generate Java entity class code and code for creating a new entity object in Java.
 
 ![image-20230128123610305](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128123610305.png) 
 
@@ -133,11 +124,11 @@ You can also generate Java entity class code and Java new entity object code.
 
 #### Save Table 
 
-You can save this table information and import it directly next time.
+The information in this table can be saved for direct import in the future.
 
  ![image-20230128130112995](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130112995.png) ![image-20230128130143125](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130143125.png) 
 
-Saved table an be viewed in the database.
+The table that has been saved can be seen within the database.
 
 ![image-20230128130403940](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130403940.png) 
 
@@ -149,7 +140,7 @@ Saved table an be viewed in the database.
 
 ##### Import Configurations
 
-You can import the schema in JSON format and parse it as fields to fill in the form
+The schema can be imported in JSON format and then parsed into fields to complete the form.
 
 ![image-20230128131102754](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131102754.png) 
 
@@ -159,7 +150,7 @@ You can import the schema in JSON format and parse it as fields to fill in the f
 
   ![image-20230128130926367](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130926367.png) 
 
-##### Import Create Table SQL
+##### Import and Create Table SQL
 
 ![image-20230128131843930](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128131843930.png) 
 
@@ -191,9 +182,9 @@ The first row of the table is the database column name. And the second row is th
 
     ![image-20230128132510975](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128132510975.png) 
 
-## Technique
+## Technologies
 
-Main Technologies.
+Main Technologies:
 
 - Spring Boot 2.7.x
 
@@ -201,9 +192,8 @@ Main Technologies.
 
 - MySQL 8.x
 
-  
 
-Additional dependencies include:
+Additional dependencies:
 
 - FreeMarker: template engine
 - Druid: SQL parsing
@@ -213,26 +203,22 @@ Additional dependencies include:
 - Gson: JSON parsing
 - Easy Excel: Excel import and export
 
-
-
 ## System Design
 
-#### Overall Architecture Design
+#### Overall Architectural Design
 
-The core design concept of this project is to unify all input methods into a clear Schema, and then generate various types of content based on the Schema.
+The main idea behind this project is to bring together all forms of input into a single, well-defined Schema, and from there, produce a range of outputs based on that Schema. 
 
-The architectural design diagram is as follows, that is, any input → unified schema→generator→ any output.
+The design process can be visualized as follows: inputs are collected and standardized into the Schema, which then feeds into a generator to produce any desired output.
 
 ![image-20230128133300223](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128133300223.png) 
 
-The system is divided into the following core modules, each module has clear responsibilities:
+The system is organized into several key modules, each with a well-defined purpose:
 
-- Schema definition: it is essentially a Java class (JSON configuration) used to save table and field information
-- Generator: Responsible for generating data and code according to Schema
-- Save Table: Save table information into database
-- Table schema builder: convert various input sources into a unified Table Schema definition
-
-
+- Schema definition: this module encompasses a Java class, represented in JSON configuration, that serves to store table and field information.
+- Generator: This module is responsible for producing data and code based on the Schema definition.
+- Save Table: This module saves table information into the database.
+- Table Schema Builder: This module is tasked with transforming various inputs into a unified Table Schema definition.
 
 #### Schema Definition
 
@@ -263,30 +249,30 @@ Save the table and field information in fixed format JSON with the following str
 
 ##### Multiple Generation types
 
-Define each generation type as a Builder
+Designate each generation type as a Builder.
 
 ![image-20230128001610303](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001610303.png) 
 
 ##### Multiple Mock Data Generation Rules
 
-Each generation rule is defined as a Generator, and multiple Generator instances are created and managed uniformly using the DataGeneratorFactory class (factory pattern).
+Each generation rule is established as a Generator, and several instances of Generators are created and managed consistently through the use of the DataGeneratorFactory class, which employs the factory pattern.
 
 ![image-20230128001735865](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128001735865.png) 
 
 ##### Unified Generation Portal
 
-Aggregate the various generation types using the facade pattern to provide a uniform generation invocation and validation method.
+Combine the different types of generation through the facade pattern to create a consistent method for calling and validating generation.
 
 ![image-20230128004519400](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128004519400.png) 
 
 #### Save Table Service
 
-The previously generated table can be saved for next use
+The table that was generated previously can be saved for future use.
 
 ![image-20230128004005643](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128004005643.png) 
 
 #### Table Schema Builder
 
-The different parameters can be converged into a TableSchema object.
+The various parameters can be merged into a single TableSchema object.
 
 ![image-20230128003651900](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128003651900.png) 
