@@ -11,9 +11,14 @@ spring:
   # Database Configuration
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sqlfather　
+    url: jdbc:mysql://localhost:3306/sqlfather
     username: root
     password: 123456
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://test.cvqcxj6a925n.ap-northeast-1.rds.amazonaws.com:3306/test
+#    username: admin
+#    password: 1234567811
 server:
   address: 0.0.0.0
   port: 8102
