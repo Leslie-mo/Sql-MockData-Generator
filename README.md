@@ -2,6 +2,8 @@
 
 - [Project Introduction](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduce)
 
+- [Demo](https://github.com/Leslie-mo/Sql-MockData-Generator#Demo)
+
 - [Getting Started](https://github.com/Leslie-mo/Sql-MockData-Generator#getting-started)
 
 - [Features List](https://github.com/Leslie-mo/Sql-MockData-Generator#features-list)
@@ -44,6 +46,10 @@
 As a programmer in Japan, I have experienced firsthand the inefficiencies and repetition in Japanese software development through my work. The technical documentation dictates how the data tables should be constructed and the testing phase requires a large amount of manual data input. To meet these requirements, programmers often spend a lot of time inputting data manually. 
 
 To address this issue, I came up with the idea of creating a SQL Query & Mock Data Generator. This project aims to simplify the process of building data tables and generating test data in Japanese development by using an SQL generator to create tables and simulate data quickly, which can then be saved to a database. The goal of my project is to eliminate the need for manual input and save time for programmers.
+
+## Demo
+
+http://18.183.197.147/
 
 ## Getting Started
 
