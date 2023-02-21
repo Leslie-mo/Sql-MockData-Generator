@@ -49,7 +49,7 @@ To address this issue, I came up with the idea of creating a SQL Query & Mock Da
 
 ## Demo
 
-http://18.183.197.147/
+http://18.181.235.125/
 
 ## Getting Started
 
