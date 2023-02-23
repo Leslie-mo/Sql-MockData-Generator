@@ -14,7 +14,7 @@
     - [Mock Data](https://github.com/Leslie-mo/Sql-MockData-Generator#mock-data)
     - [JSON Data](https://github.com/Leslie-mo/Sql-MockData-Generator#json-data)
     - [Java Code](https://github.com/Leslie-mo/Sql-MockData-Generator#java-code)
-    - [Frontend code](https://github.com/Leslie-mo/Sql-MockData-Generator#frontend-code)
+    - [Frontend Code](https://github.com/Leslie-mo/Sql-MockData-Generator#frontend-code)
   - [Save Table](https://github.com/Leslie-mo/Sql-MockData-Generator#save-table)
   - [Quick Import Of Table Creation](https://github.com/Leslie-mo/Sql-MockData-Generator#quick-import-of-table-creation)
     - [Import Saved Tables](https://github.com/Leslie-mo/Sql-MockData-Generator#import-saved-tables)
@@ -67,7 +67,7 @@ datasource:
 ```
 
 4. Start the MainApplication.
-5. Obtain the frontend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator-Frontend
+5. Obtain the frontend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator-Front
 6. Install the necessary dependencies.
 
 ```
@@ -98,7 +98,7 @@ You can add additional fields and field types, as well as include four default f
 
 #### Generate SQL Queries with One Click
 
-##### SQL (table creation and data insertion)
+##### SQL (Table Creation and Fata Insertion)
 
 Once you have entered the data, click the button to generate the SQL statements for creating the table and inserting the data.
 
@@ -253,7 +253,7 @@ Save the table and field information in fixed format JSON with the following str
 
 #### Generator
 
-##### Multiple Generation types
+##### Multiple Generation Types
 
 Designate each generation type as a Builder.
 
