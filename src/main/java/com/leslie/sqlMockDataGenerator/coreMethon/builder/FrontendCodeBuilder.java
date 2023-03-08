@@ -32,7 +32,7 @@ public class FrontendCodeBuilder {
     /**
      * Build Typescript code
      *
-     * @param tableSchema 表概要
+     * @param tableSchema
      * @return built code
      */
     @SneakyThrows
