@@ -8,7 +8,7 @@
 
 - [Features List](https://github.com/Leslie-mo/Sql-MockData-Generator#features-list)
   
-  - [Visualization of table creation](https://github.com/Leslie-mo/Sql-MockData-Generator#visualization-of-table-creation)
+  - [Visualization Of Table Creation](https://github.com/Leslie-mo/Sql-MockData-Generator#visualization-of-table-creation)
   - [One-Click Generation](https://github.com/Leslie-mo/Sql-MockData-Generator#one-click-generation)
     - [SQL (table creation and data insert)](https://github.com/Leslie-mo/Sql-MockData-Generator#sql-table-creation-and-data-insert)
     - [Mock Data](https://github.com/Leslie-mo/Sql-MockData-Generator#mock-data)
@@ -199,7 +199,7 @@ Main Technologies:
 - MySQL 8.x
 
 
-Additional dependencies:
+Additional Dependencies:
 
 - FreeMarker: template engine
 - Druid: SQL parsing
