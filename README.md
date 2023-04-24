@@ -1,6 +1,6 @@
 # SQL & Mock Data Generator
 
-- [Project Introduction](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduce)
+- [Project Introduction](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduction)
 
 - [Demo](https://github.com/Leslie-mo/Sql-MockData-Generator#Demo)
 
@@ -9,8 +9,8 @@
 - [Features List](https://github.com/Leslie-mo/Sql-MockData-Generator#features-list)
   
   - [Visualization Of Table Creation](https://github.com/Leslie-mo/Sql-MockData-Generator#visualization-of-table-creation)
-  - [One-Click Generation](https://github.com/Leslie-mo/Sql-MockData-Generator#one-click-generation)
-    - [SQL (table creation and data insert)](https://github.com/Leslie-mo/Sql-MockData-Generator#sql-table-creation-and-data-insert)
+  - [Generate SQL Queries with One Click](https://github.com/Leslie-mo/Sql-MockData-Generator#generate-sql-queries-with-one-click)
+    - [SQL (Table Creation and Fata Insertion)](https://github.com/Leslie-mo/Sql-MockData-Generator#sql-table-creation-and-fata-insertion)
     - [Mock Data](https://github.com/Leslie-mo/Sql-MockData-Generator#mock-data)
     - [JSON Data](https://github.com/Leslie-mo/Sql-MockData-Generator#json-data)
     - [Java Code](https://github.com/Leslie-mo/Sql-MockData-Generator#java-code)
