@@ -2,7 +2,34 @@
 
 # SQL & Mock Data Generator
 
-[TOC]
+  * [Project Introduction](#project-introduction)
+  * [Demo](#demo)
+  * [Getting Started](#getting-started)
+  * [Features List](#features-list)
+      - [Create Tables with an Interface](#create-tables-with-an-interface)
+      - [Generate SQL Queries with One Click](#generate-sql-queries-with-one-click)
+        * [SQL (Table Creation and Fata Insertion)](#sql--table-creation-and-fata-insertion-)
+        * [Mock Data](#mock-data)
+        * [JSON Data](#json-data)
+        * [Java Code](#java-code)
+        * [Frontend Code](#frontend-code)
+      - [Save Table](#save-table)
+      - [Quick Import of Table Creation](#quick-import-of-table-creation)
+        * [Import Saved Tables](#import-saved-tables)
+        * [Import Configurations](#import-configurations)
+        * [Import and Create Table SQL](#import-and-create-table-sql)
+        * [Importing Data Excel](#importing-data-excel)
+      - [Multiple Mock Data Generation Rules](#multiple-mock-data-generation-rules)
+  * [Technologies](#technologies)
+  * [System Design](#system-design)
+      - [Overall Architectural Design](#overall-architectural-design)
+      - [Schema Definition](#schema-definition)
+      - [Generator](#generator)
+        * [Multiple Generation Types](#multiple-generation-types)
+        * [Multiple Mock Data Generation Rules](#multiple-mock-data-generation-rules-1)
+        * [Unified Generation Portal](#unified-generation-portal)
+      - [Save Table Service](#save-table-service)
+      - [Table Schema Builder](#table-schema-builder)
 
 ## Project Introduction
 
