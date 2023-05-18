@@ -1,45 +1,8 @@
+
+
 # SQL & Mock Data Generator
 
-- [Project Introduction](https://github.com/Leslie-mo/Sql-MockData-Generator#project-introduction)
-
-- [Demo](https://github.com/Leslie-mo/Sql-MockData-Generator#Demo)
-
-- [Getting Started](https://github.com/Leslie-mo/Sql-MockData-Generator#getting-started)
-
-- [Features List](https://github.com/Leslie-mo/Sql-MockData-Generator#features-list)
-  
-  - [Visualization Of Table Creation](https://github.com/Leslie-mo/Sql-MockData-Generator#visualization-of-table-creation)
-  - [Generate SQL Queries with One Click](https://github.com/Leslie-mo/Sql-MockData-Generator#generate-sql-queries-with-one-click)
-    - [SQL (Table Creation and Fata Insertion)](https://github.com/Leslie-mo/Sql-MockData-Generator#sql-table-creation-and-fata-insertion)
-    - [Mock Data](https://github.com/Leslie-mo/Sql-MockData-Generator#mock-data)
-    - [JSON Data](https://github.com/Leslie-mo/Sql-MockData-Generator#json-data)
-    - [Java Code](https://github.com/Leslie-mo/Sql-MockData-Generator#java-code)
-    - [Frontend Code](https://github.com/Leslie-mo/Sql-MockData-Generator#frontend-code)
-  - [Save Table](https://github.com/Leslie-mo/Sql-MockData-Generator#save-table)
-  - [Quick Import Of Table Creation](https://github.com/Leslie-mo/Sql-MockData-Generator#quick-import-of-table-creation)
-    - [Import Saved Tables](https://github.com/Leslie-mo/Sql-MockData-Generator#import-saved-tables)
-    - [Import Configurations](https://github.com/Leslie-mo/Sql-MockData-Generator#import-configurations)
-    - [Import Create Table SQL](https://github.com/Leslie-mo/Sql-MockData-Generator#import-create-table-sql)
-    - [Importing Data Excel](https://github.com/Leslie-mo/Sql-MockData-Generator#importing-data-excel)
-  
-- [Technique](https://github.com/Leslie-mo/Sql-MockData-Generator#technique)
-
-- [System Design](https://github.com/Leslie-mo/Sql-MockData-Generator#system-design)
-  - [Overall Architecture Design](https://github.com/Leslie-mo/Sql-MockData-Generator#overall-architecture-design)
-
-  - [Schema Definition](https://github.com/Leslie-mo/Sql-MockData-Generator#schema-definition)
-
-  - [Generator](https://github.com/Leslie-mo/Sql-MockData-Generator#generator)
-
-    - [Multiple generation types](https://github.com/Leslie-mo/Sql-MockData-Generator#multiple-generation-types)
-    - [Multiple mock data generation rules](https://github.com/Leslie-mo/Sql-MockData-Generator#multiple-mock-data-generation-rules)
-    - [Unified generation portal](https://github.com/Leslie-mo/Sql-MockData-Generator#unified-generation-portal)
-
-  - [Save Table Service](https://github.com/Leslie-mo/Sql-MockData-Generator#save-table-service)
-
-  - [Table Schema Builder](https://github.com/Leslie-mo/Sql-MockData-Generator#table-schema-builder)
-
-    
+[TOC]
 
 ## Project Introduction
 
@@ -138,7 +101,7 @@ The table that has been saved can be seen within the database.
 
 ![image-20230128130403940](https://github.com/Leslie-mo/README-image-repo/blob/f8bc788e7713ec931a154f8d9617e3d45071c159/Sql-MockData-Generator-image/image-20230128130403940.png) 
 
-#### Quick Import Of Table Creation
+#### Quick Import of Table Creation
 
 ##### Import Saved Tables
 
