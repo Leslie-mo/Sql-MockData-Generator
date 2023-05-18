@@ -44,7 +44,7 @@ http://54.199.168.104/
 ## Getting Started
 
 1. Get the backend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator
-2. To create the "table_info" table, execute the create_”table.sql“ file located in the ”sql“ directory.
+2. To create the "table_info" table, execute the ”create_table.sql“ file located in the ”sql“ directory.
 3. Change the database configuration in ”application.yml“ to match your own database.
 
 ```
