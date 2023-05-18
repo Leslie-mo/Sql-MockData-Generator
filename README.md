@@ -44,8 +44,8 @@ http://54.199.168.104/
 ## Getting Started
 
 1. Get the backend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator
-2. To create the "table_info" table, execute the create_table.sql file located in the sql directory.
-3. Change the database configuration in application.yml to match your own database.
+2. To create the "table_info" table, execute the create_”table.sql“ file located in the ”sql“ directory.
+3. Change the database configuration in ”application.yml“ to match your own database.
 
 ```
 # Database Configuration
@@ -57,7 +57,7 @@ datasource:
 ```
 
 4. Start the MainApplication.
-5. Obtain the frontend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator-Front
+5. Get the frontend code by cloning it from https://github.com/Leslie-mo/Sql-MockData-Generator-Front
 6. Install the necessary dependencies.
 
 ```
@@ -88,7 +88,7 @@ You can add additional fields and field types, as well as include four default f
 
 #### Generate SQL Queries with One Click
 
-##### SQL (Table Creation and Fata Insertion)
+##### SQL (Table Creation and Data Insertion)
 
 Once you have entered the data, click the button to generate the SQL statements for creating the table and inserting the data.
 
