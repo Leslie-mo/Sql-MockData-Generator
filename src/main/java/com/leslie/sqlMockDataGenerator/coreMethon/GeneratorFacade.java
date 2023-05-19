@@ -17,7 +17,7 @@ import java.util.Map;
 public class GeneratorFacade {
     public static GenerateVO generateAll(TableSchema tableSchema) {
 
-        // valid
+        // validation
         validSchema(tableSchema);
         SqlBuilder sqlBuilder = new SqlBuilder();
         // build create table Sql

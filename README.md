@@ -197,7 +197,7 @@ Additional Dependencies:
 - Apache Commons Lang3: utility library
 - Hutool: utility library
 - Gson: JSON parsing
-- Easy Excel: Excel import and export
+- EasyExcel: Excel import and export
 
 ## System Design
 

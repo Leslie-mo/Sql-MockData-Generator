@@ -36,7 +36,7 @@ public class TableSchema {
     private List<Field> fieldList;
 
     /**
-     * field info
+     * properties of a field
      */
     @Data
     public static class Field {

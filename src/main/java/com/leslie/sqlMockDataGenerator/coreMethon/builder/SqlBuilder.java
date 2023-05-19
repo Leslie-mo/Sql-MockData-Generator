@@ -117,7 +117,7 @@ public class SqlBuilder {
         for (int i = 0; i < fieldSize; i++) {
             Field field = fieldList.get(i);
             fieldStrBuilder.append(buildCreateFieldSql(field));
-            // No comma and newline after the last field
+            // No comma and newline mark after the last field
             if (i != fieldSize - 1) {
                 fieldStrBuilder.append(",");
                 fieldStrBuilder.append("\n");

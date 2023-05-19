@@ -18,6 +18,7 @@ public class RandomDataGenerator implements DataGenerator {
         String mockParams = field.getMockParams();
         List<String> list = new ArrayList<>(rowNum);
         for (int i = 0; i < rowNum; i++) {
+            // isnull check
             MockParamsRandomTypeEnum randomTypeEnum = Optional.ofNullable(
                             MockParamsRandomTypeEnum.getEnumByValue(mockParams))
                     .orElse(MockParamsRandomTypeEnum.STRING);
