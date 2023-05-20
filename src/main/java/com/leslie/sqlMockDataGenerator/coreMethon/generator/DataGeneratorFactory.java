@@ -19,7 +19,7 @@ public class DataGeneratorFactory {
     }};
 
     /**
-     * get instance
+     * get instance by mockType
      *
      * @param mockTypeEnum
      * @return

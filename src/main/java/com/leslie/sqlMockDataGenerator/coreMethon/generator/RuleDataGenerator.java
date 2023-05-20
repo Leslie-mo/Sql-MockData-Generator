@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * rule data generator
+ * rule data generator (Regular expressions)
  */
 public class RuleDataGenerator implements DataGenerator {
 

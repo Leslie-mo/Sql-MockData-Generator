@@ -6,7 +6,6 @@ import com.alibaba.druid.sql.ast.statement.SQLPrimaryKey;
 import com.alibaba.druid.sql.ast.statement.SQLTableElement;
 import com.alibaba.druid.sql.dialect.mysql.parser.MySqlCreateTableParser;
 import com.alibaba.excel.EasyExcel;
-import com.google.gson.Gson;
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
 import com.leslie.sqlMockDataGenerator.coreMethon.builder.sql.MySQLDialect;
 import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
@@ -34,9 +33,6 @@ import java.util.stream.Collectors;
 @Component
 @Slf4j
 public class TableSchemaBuilder {
-
-    private final static Gson GSON = new Gson();
-
 
     private static final MySQLDialect sqlDialect = new MySQLDialect();
 

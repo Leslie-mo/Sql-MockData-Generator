@@ -33,6 +33,7 @@ public class DataBuilder {
         for (Field field : fieldList) {
             MockTypeEnum mockTypeEnum = Optional.ofNullable(MockTypeEnum.getEnumByValue(field.getMockType()))
                     .orElse(MockTypeEnum.NONE);
+            // select generator by mock type
             DataGenerator dataGenerator = DataGeneratorFactory.getGenerator(mockTypeEnum);
             List<String> mockDataList = dataGenerator.doGenerate(field, rowNum);
             String fieldName = field.getFieldName();

@@ -15,7 +15,7 @@ public class FixedDataGenerator implements DataGenerator {
     public List<String> doGenerate(Field field, int rowNum) {
         String mockParams = field.getMockParams();
         if (StringUtils.isBlank(mockParams)) {
-            mockParams = "6";
+            mockParams = "";
         }
         List<String> list = new ArrayList<>(rowNum);
         for (int i = 0; i < rowNum; i++) {

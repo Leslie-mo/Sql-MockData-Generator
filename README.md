@@ -8,7 +8,7 @@
   * [Features List](#features-list)
       - [Create Tables with an Interface](#create-tables-with-an-interface)
       - [Generate SQL Queries with One Click](#generate-sql-queries-with-one-click)
-        * [SQL (Table Creation and Data Insertion)](#sql--table-creation-and-fata-insertion-)
+        * [SQL (Table Creation and Data Insertion)](#sql--table-creation-and-data-insertion-)
         * [Mock Data](#mock-data)
         * [JSON Data](#json-data)
         * [Java Code](#java-code)

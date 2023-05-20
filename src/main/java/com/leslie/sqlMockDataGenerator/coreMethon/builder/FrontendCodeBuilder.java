@@ -45,9 +45,9 @@ public class FrontendCodeBuilder {
         String upperCamelTableName = StringUtils.capitalize(StrUtil.toCamelCase(tableName));
         //  class name is uppercase table name
         generateDTO.setClassName(upperCamelTableName);
-        // Class annotations are table annotations > table name
+        // class annotations are table annotations > table name
         generateDTO.setClassComment(Optional.ofNullable(tableComment).orElse(upperCamelTableName));
-        // Fill each column in turn
+        // fill each column in turn
         List<TypescriptTypeGenerateDTO.FieldDTO> fieldDTOList = new ArrayList<>();
         for (Field field : tableSchema.getFieldList()) {
             TypescriptTypeGenerateDTO.FieldDTO fieldDTO = new FieldDTO();
