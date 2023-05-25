@@ -1,6 +1,6 @@
 package com.leslie.sqlMockDataGenerator.model.vo;
 
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
 import lombok.Data;
 
 import java.io.Serializable;

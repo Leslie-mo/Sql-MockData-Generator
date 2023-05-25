@@ -1,6 +1,6 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.generator;
+package com.leslie.sqlMockDataGenerator.coreMethod.generator;
 
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
 import com.leslie.sqlMockDataGenerator.model.enums.MockParamsRandomTypeEnum;
 import com.leslie.sqlMockDataGenerator.utils.FakerUtils;
 

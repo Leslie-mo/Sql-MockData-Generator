@@ -1,4 +1,4 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder;
 
 import com.alibaba.druid.sql.ast.statement.SQLColumnDefinition;
 import com.alibaba.druid.sql.ast.statement.SQLCreateTableStatement;
@@ -7,9 +7,9 @@ import com.alibaba.druid.sql.ast.statement.SQLTableElement;
 import com.alibaba.druid.sql.dialect.mysql.parser.MySqlCreateTableParser;
 import com.alibaba.excel.EasyExcel;
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
-import com.leslie.sqlMockDataGenerator.coreMethon.builder.sql.MySQLDialect;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.builder.sql.MySQLDialect;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;
 import com.leslie.sqlMockDataGenerator.model.enums.FieldTypeEnum;
 import com.leslie.sqlMockDataGenerator.model.enums.MockTypeEnum;

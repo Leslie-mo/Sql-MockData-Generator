@@ -1,10 +1,10 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;
 import com.leslie.sqlMockDataGenerator.model.dto.JavaEntityGenerateDTO;
 import com.leslie.sqlMockDataGenerator.model.dto.JavaEntityGenerateDTO.FieldDTO;

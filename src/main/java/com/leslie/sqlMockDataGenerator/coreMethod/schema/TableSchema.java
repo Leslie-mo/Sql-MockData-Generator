@@ -1,4 +1,4 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.schema;
+package com.leslie.sqlMockDataGenerator.coreMethod.schema;
 
 import lombok.Data;
 

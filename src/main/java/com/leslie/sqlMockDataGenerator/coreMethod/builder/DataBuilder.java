@@ -1,11 +1,11 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder;
 
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
-import com.leslie.sqlMockDataGenerator.coreMethon.generator.DataGenerator;
-import com.leslie.sqlMockDataGenerator.coreMethon.generator.DataGeneratorFactory;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.generator.DataGenerator;
+import com.leslie.sqlMockDataGenerator.coreMethod.generator.DataGeneratorFactory;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.model.enums.MockTypeEnum;
 
 import java.util.*;

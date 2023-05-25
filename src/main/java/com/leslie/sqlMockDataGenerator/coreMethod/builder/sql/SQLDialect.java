@@ -1,4 +1,4 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder.sql;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder.sql;
 
 /**
  * SQL dialect

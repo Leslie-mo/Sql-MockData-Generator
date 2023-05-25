@@ -1,7 +1,7 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.generator;
+package com.leslie.sqlMockDataGenerator.coreMethod.generator;
 
 
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 
 import java.util.List;
 

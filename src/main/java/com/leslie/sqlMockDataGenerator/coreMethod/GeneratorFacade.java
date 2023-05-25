@@ -1,9 +1,9 @@
-package com.leslie.sqlMockDataGenerator.coreMethon;
+package com.leslie.sqlMockDataGenerator.coreMethod;
 
-import com.leslie.sqlMockDataGenerator.coreMethon.builder.*;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.SchemaException;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.builder.*;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.SchemaException;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.model.vo.GenerateVO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;

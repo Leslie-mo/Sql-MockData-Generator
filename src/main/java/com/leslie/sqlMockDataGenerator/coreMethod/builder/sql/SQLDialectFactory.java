@@ -1,4 +1,4 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder.sql;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder.sql;
 
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;

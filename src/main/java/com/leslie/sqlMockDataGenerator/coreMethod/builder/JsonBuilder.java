@@ -1,4 +1,4 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

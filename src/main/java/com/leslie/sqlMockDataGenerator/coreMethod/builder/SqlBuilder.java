@@ -1,11 +1,11 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder;
 
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
-import com.leslie.sqlMockDataGenerator.coreMethon.builder.sql.MySQLDialect;
-import com.leslie.sqlMockDataGenerator.coreMethon.builder.sql.SQLDialect;
-import com.leslie.sqlMockDataGenerator.coreMethon.builder.sql.SQLDialectFactory;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.builder.sql.MySQLDialect;
+import com.leslie.sqlMockDataGenerator.coreMethod.builder.sql.SQLDialect;
+import com.leslie.sqlMockDataGenerator.coreMethod.builder.sql.SQLDialectFactory;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;
 import com.leslie.sqlMockDataGenerator.model.enums.FieldTypeEnum;
 import com.leslie.sqlMockDataGenerator.model.enums.MockTypeEnum;

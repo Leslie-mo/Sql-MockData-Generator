@@ -1,4 +1,4 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.generator;
+package com.leslie.sqlMockDataGenerator.coreMethod.generator;
 
 import com.leslie.sqlMockDataGenerator.model.enums.MockTypeEnum;
 

@@ -3,8 +3,8 @@ package com.leslie.sqlMockDataGenerator.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.gson.Gson;
 import com.leslie.sqlMockDataGenerator.common.ErrorCode;
-import com.leslie.sqlMockDataGenerator.coreMethon.GeneratorFacade;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.GeneratorFacade;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;
 import com.leslie.sqlMockDataGenerator.mapper.TableInfoMapper;
 import com.leslie.sqlMockDataGenerator.model.entity.TableInfo;
@@ -27,7 +27,7 @@ public class TableInfoServiceImpl extends ServiceImpl<TableInfoMapper, TableInfo
         }
         String content = tableInfo.getContent();
         String name = tableInfo.getName();
-        Integer reviewStatus = tableInfo.getReviewStatus();
+
         // When creating, all parameters must be non-null
         if (add && StringUtils.isAnyBlank(name, content)) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);

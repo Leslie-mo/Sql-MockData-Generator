@@ -1,9 +1,9 @@
-package com.leslie.sqlMockDataGenerator.coreMethon.builder;
+package com.leslie.sqlMockDataGenerator.coreMethod.builder;
 
 
 import cn.hutool.core.util.StrUtil;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema;
-import com.leslie.sqlMockDataGenerator.coreMethon.schema.TableSchema.Field;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
+import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema.Field;
 import com.leslie.sqlMockDataGenerator.model.dto.TypescriptTypeGenerateDTO;
 import com.leslie.sqlMockDataGenerator.model.dto.TypescriptTypeGenerateDTO.FieldDTO;
 import com.leslie.sqlMockDataGenerator.model.enums.FieldTypeEnum;
