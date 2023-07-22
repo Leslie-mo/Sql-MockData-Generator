@@ -27,6 +27,11 @@
             <version>4.3.14.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>com.unfbx</groupId>
+            <artifactId>chatgpt-java</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>
             <version>4.3.2</version>

@@ -9,8 +9,13 @@ import com.leslie.sqlMockDataGenerator.exception.BusinessException;
 import com.leslie.sqlMockDataGenerator.mapper.TableInfoMapper;
 import com.leslie.sqlMockDataGenerator.model.entity.TableInfo;
 import com.leslie.sqlMockDataGenerator.service.TableInfoService;
+import com.unfbx.chatgpt.OpenAiClient;
+import com.unfbx.chatgpt.entity.completions.CompletionResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
+
+import java.io.IOException;
+import java.util.Arrays;
 
 /**
  * @description Database operation service implement for table [table_info]
@@ -48,6 +53,24 @@ public class TableInfoServiceImpl extends ServiceImpl<TableInfoMapper, TableInfo
             }
         }
 
+    }
+
+    @Override
+    public String validateSql(String apiKey, String sqlQuery) {
+        // config api keys
+        OpenAiClient openAiClient = new OpenAiClient(apiKey);
+
+        String payload = "{\"prompt\": \"Check the correctness of the SQL query: \\\"" + sqlQuery + "\\\".\","
+                + "\"max_tokens\": 100,\"stop\": \"\\n\"}";
+
+        CompletionResponse completions = openAiClient.completions(payload);
+
+        Arrays.stream(completions.getChoices()).forEach(System.out::println);
+
+        String response = completions.getChoices()[0].getText();
+
+        // Return the response from OpenAI
+        return response;
     }
 }
 

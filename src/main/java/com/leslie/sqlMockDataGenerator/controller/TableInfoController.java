@@ -8,6 +8,7 @@ import com.leslie.sqlMockDataGenerator.coreMethod.builder.SqlBuilder;
 import com.leslie.sqlMockDataGenerator.coreMethod.schema.TableSchema;
 import com.leslie.sqlMockDataGenerator.exception.BusinessException;
 import com.leslie.sqlMockDataGenerator.model.dto.TableInfoAddRequest;
+import com.leslie.sqlMockDataGenerator.model.dto.ValidateRequest;
 import com.leslie.sqlMockDataGenerator.model.entity.TableInfo;
 import com.leslie.sqlMockDataGenerator.service.TableInfoService;
 import lombok.extern.slf4j.Slf4j;
@@ -55,6 +56,26 @@ public class TableInfoController {
         }
         return ResultUtils.success(tableInfo.getId());
     }
+
+    /**
+     * validate
+     *
+     * @param validateRequest
+     * @param request
+     * @return
+     */
+    @PostMapping("/validate")
+    public BaseResponse<String> ValidateInfo(@RequestBody ValidateRequest validateRequest,
+                                             HttpServletRequest request) {
+        System.out.println(validateRequest.getApikey());
+        System.out.println(validateRequest.getSql());
+        System.out.println("123456");
+
+        String result = tableInfoService.validateSql(validateRequest.getApikey(), validateRequest.getSql());
+
+        return ResultUtils.success(result);
+    }
+
 
     /**
      * delete
