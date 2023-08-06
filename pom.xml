@@ -26,11 +26,8 @@
             <artifactId>spring-test</artifactId>
             <version>4.3.14.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>com.unfbx</groupId>
-            <artifactId>chatgpt-java</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.theokanning.openai-gpt3-java/service -->
+
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>

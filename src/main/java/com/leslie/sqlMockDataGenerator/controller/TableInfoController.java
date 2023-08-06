@@ -66,10 +66,9 @@ public class TableInfoController {
      */
     @PostMapping("/validate")
     public BaseResponse<String> ValidateInfo(@RequestBody ValidateRequest validateRequest,
-                                             HttpServletRequest request) {
+                                             HttpServletRequest request) throws Exception {
         System.out.println(validateRequest.getApikey());
         System.out.println(validateRequest.getSql());
-        System.out.println("123456");
 
         String result = tableInfoService.validateSql(validateRequest.getApikey(), validateRequest.getSql());
 
