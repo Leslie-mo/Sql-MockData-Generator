@@ -73,6 +73,9 @@ npm run dev
 8. The app will be available at [http://localhost:8000](http://localhost:8000/).
 
 ## Features List
+#### (v0.2 update)SQL correctness validation
+
+You can paste the generated sql here and verify it with AI
 
 #### Create Tables with an Interface
 
