@@ -6,6 +6,7 @@
   * [Demo](#demo)
   * [Getting Started](#getting-started)
   * [Features List](#features-list)
+      - [(v0.2 update)SQL correctness validation](#create-tables-with-an-interface)
       - [Create Tables with an Interface](#create-tables-with-an-interface)
       - [Generate SQL Queries with One Click](#generate-sql-queries-with-one-click)
         * [SQL (Table Creation and Data Insertion)](#sql--table-creation-and-data-insertion-)
@@ -75,7 +76,7 @@ npm run dev
 ## Features List
 #### (v0.2 update)SQL correctness validation
 
-You can paste the generated sql here and verify it with AI
+You can paste the generated sql here and validate it with AI
 
 #### Create Tables with an Interface
 
