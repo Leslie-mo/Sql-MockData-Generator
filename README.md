@@ -76,7 +76,9 @@ npm run dev
 ## Features List
 #### (v0.2 update)SQL correctness validation
 
-You can paste the generated sql here and validate it with AI
+You can paste the generated sql here and validate its correctness with ChatGPT API （API key is required）
+
+![image-20230828-1](https://https://github.com/Leslie-mo/README-image-repo/blob/master/Sql-MockData-Generator-image/image-20230828-1.png)
 
 #### Create Tables with an Interface
 

@@ -98,7 +98,7 @@ public class TableInfoServiceImpl extends ServiceImpl<TableInfoMapper, TableInfo
 
         // Convert JSON array to string
         String prompt = jsonArray.toString();
-        int maxTokens = 50;
+        int maxTokens = 500;
 
         con.setDoOutput(true);
         String body = "{\"model\": \"" + model + "\", \"messages\": " + prompt + ", \"max_tokens\": " + maxTokens + "}";
