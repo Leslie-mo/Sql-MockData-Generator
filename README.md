@@ -78,7 +78,7 @@ npm run dev
 
 You can paste the generated sql here and validate its correctness with ChatGPT API （API key is required）
 
-![image-20230828-1](https://https://github.com/Leslie-mo/README-image-repo/blob/master/Sql-MockData-Generator-image/image-20230828-1.png)
+![image-20230828-1](https://github.com/Leslie-mo/README-image-repo/blob/master/Sql-MockData-Generator-image/image-20230828-1.png)
 
 #### Create Tables with an Interface
 
